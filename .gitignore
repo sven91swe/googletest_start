@@ -1,0 +1,8 @@
+!CMakeLists.txt
+!tests
+!*.cpp
+!*.git*
+!*.sh
+!googletest/*
+
+build/*
