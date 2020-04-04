@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include "../Example.hpp"
+#include "../ExampleFunction.hpp"
 
-struct Test2
+struct Test_ExampleFunction
     : public ::testing::Test
 {
     int x;
@@ -13,14 +13,14 @@ struct Test2
     }
 };
 
-TEST_F(Test2, isTrue){
+TEST_F(Test_ExampleFunction, isTrue){
     EXPECT_TRUE(true);
 }
 
-TEST_F(Test2, xIsFive){
+TEST_F(Test_ExampleFunction, xIsFive){
     EXPECT_EQ(x, 5);
 }
 
-TEST_F(Test2, testSquare){
+TEST_F(Test_ExampleFunction, testSquare){
     EXPECT_EQ(x*x, ownSquare(x));
 }

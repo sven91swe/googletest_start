@@ -1,4 +1,4 @@
-#include "Example.hpp"
+#include "ExampleFunction.hpp"
 
 int ownSquare(int x){
     return x*x;

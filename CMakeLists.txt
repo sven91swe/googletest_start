@@ -13,11 +13,13 @@ enable_testing()
 add_subdirectory(googletest)
 
 set(Headers
-   Example.hpp
+   ExampleFunction.hpp
+   ExampleClass.hpp
 )
 
 set(Sources
-   Example.cpp
+   ExampleFunction.cpp
+   ExampleClass.cpp
 )
 
 add_library(${This} STATIC ${Sources} ${Headers})
